@@ -1,3 +1,4 @@
+import csv
 import datetime as dt
 import json
 import logging
@@ -13,35 +14,11 @@ logging.basicConfig(
     format="%(asctime)s %(levelname)s %(message)s",
 )
 
+TICKERS_CSV_PATH = "data/tickers.csv"
 OUTPUT_DIR = "docs/data"
 HISTORY_DIR = "docs/data/history"
 
 SLEEP_SECONDS_BETWEEN_TICKERS = 0.4
-
-TICKERS = [
-    {"label": "AAPL", "symbol": "AAPL", "country": "United States"},
-    {"label": "MSFT", "symbol": "MSFT", "country": "United States"},
-    {"label": "NVDA", "symbol": "NVDA", "country": "United States"},
-    {"label": "TSLA", "symbol": "TSLA", "country": "United States"},
-    {"label": "JPM", "symbol": "JPM", "country": "United States"},
-
-    {"label": "BHP", "symbol": "BHP.AX", "country": "Australia"},
-    {"label": "WES", "symbol": "WES.AX", "country": "Australia"},
-    {"label": "NAB", "symbol": "NAB.AX", "country": "Australia"},
-    {"label": "CBA", "symbol": "CBA.AX", "country": "Australia"},
-
-    {"label": "NOKIA", "symbol": "NOKIA.HE", "country": "Finland"},
-    {"label": "NESTE", "symbol": "NESTE.HE", "country": "Finland"},
-
-    {"label": "LVMH", "symbol": "MC.PA", "country": "France"},
-    {"label": "OREP", "symbol": "OR.PA", "country": "France"},
-    {"label": "HRMS", "symbol": "RMS.PA", "country": "France"},
-    {"label": "BNPP", "symbol": "BNP.PA", "country": "France"},
-
-    {"label": "UCG", "symbol": "UCG.MI", "country": "Italy"},
-    {"label": "STLA", "symbol": "STLA.MI", "country": "Italy"},
-    {"label": "AIR", "symbol": "AIR.PA", "country": "France"},
-]
 
 
 def utc_now_iso() -> str:
@@ -50,20 +27,57 @@ def utc_now_iso() -> str:
 
 def previous_trading_day(day: dt.date) -> dt.date:
     d = day - dt.timedelta(days=1)
-
     while d.weekday() >= 5:
         d -= dt.timedelta(days=1)
-
     return d
 
 
 def next_trading_day(day: dt.date) -> dt.date:
     d = day + dt.timedelta(days=1)
-
     while d.weekday() >= 5:
         d += dt.timedelta(days=1)
-
     return d
+
+
+def bool_from_csv(value) -> bool:
+    if value is None:
+        return True
+
+    return str(value).strip().upper() not in ("FALSE", "0", "NO", "N", "")
+
+
+def load_tickers_from_csv(path: str):
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"Missing ticker mapping file: {path}")
+
+    tickers = []
+
+    with open(path, "r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+
+        required_columns = {"label", "symbol", "country", "enabled"}
+        missing = required_columns - set(reader.fieldnames or [])
+
+        if missing:
+            raise ValueError(f"Missing required columns in {path}: {sorted(missing)}")
+
+        for row in reader:
+            label = (row.get("label") or "").strip()
+            symbol = (row.get("symbol") or "").strip()
+            country = (row.get("country") or "").strip()
+            enabled = bool_from_csv(row.get("enabled"))
+
+            if not label:
+                continue
+
+            tickers.append({
+                "label": label,
+                "symbol": symbol,
+                "country": country,
+                "enabled": enabled,
+            })
+
+    return tickers
 
 
 def normalize_date(value):
@@ -132,6 +146,9 @@ def extract_earnings_date_from_calendar(calendar_value, previous_day: dt.date):
 
 
 def get_earnings_date(label: str, symbol: str, previous_day: dt.date):
+    if not symbol:
+        return None, "disabled_or_missing_yahoo_symbol", "disabled_or_missing_yahoo_symbol"
+
     try:
         ticker = yf.Ticker(symbol)
         calendar = ticker.calendar
@@ -184,12 +201,18 @@ def build_row(
     label = item["label"]
     symbol = item["symbol"]
     country = item.get("country", "")
+    enabled = item.get("enabled", True)
 
-    earnings_date, source, note = get_earnings_date(
-        label=label,
-        symbol=symbol,
-        previous_day=previous_day,
-    )
+    if not enabled:
+        earnings_date = None
+        source = "disabled"
+        note = "disabled_in_tickers_csv"
+    else:
+        earnings_date, source, note = get_earnings_date(
+            label=label,
+            symbol=symbol,
+            previous_day=previous_day,
+        )
 
     signal, is_open_trade, is_keep_closed, is_close_only, signal_note = build_signal(
         earnings_date=earnings_date,
@@ -235,22 +258,25 @@ def run():
     run_datetime = utc_now_iso()
     created_at = run_datetime
 
+    tickers = load_tickers_from_csv(TICKERS_CSV_PATH)
+
     logging.info("EARNINGS CALENDAR GITHUB RUN")
     logging.info("yfinance version: %s", yf.__version__)
     logging.info("Run date: %s", run_date.isoformat())
     logging.info("Previous trading day: %s", previous_day.isoformat())
     logging.info("Next trading day: %s", next_day.isoformat())
-    logging.info("Tickers to process: %s", len(TICKERS))
+    logging.info("Tickers loaded from CSV: %s", len(tickers))
 
     rows = []
 
-    for index, item in enumerate(TICKERS, start=1):
+    for index, item in enumerate(tickers, start=1):
         logging.info(
-            "Processing %s/%s: %s %s",
+            "Processing %s/%s: %s %s enabled=%s",
             index,
-            len(TICKERS),
+            len(tickers),
             item["label"],
-            item["symbol"],
+            item["symbol"] or "NO_SYMBOL",
+            item.get("enabled", True),
         )
 
         row = build_row(
@@ -265,13 +291,15 @@ def run():
         logging.info("Row: %s", row)
         rows.append(row)
 
-        if SLEEP_SECONDS_BETWEEN_TICKERS > 0:
+        if item.get("enabled", True) and item.get("symbol") and SLEEP_SECONDS_BETWEEN_TICKERS > 0:
             time.sleep(SLEEP_SECONDS_BETWEEN_TICKERS)
 
     signal_counts = {}
+    source_counts = {}
 
     for row in rows:
         signal_counts[row["signal"]] = signal_counts.get(row["signal"], 0) + 1
+        source_counts[row["earnings_date_source"]] = source_counts.get(row["earnings_date_source"], 0) + 1
 
     output = {
         "ok": True,
@@ -281,8 +309,10 @@ def run():
         "today_trading_day": run_date.isoformat(),
         "next_trading_day": next_day.isoformat(),
         "yfinance_version": yf.__version__,
+        "tickers_csv_path": TICKERS_CSV_PATH,
         "rows_count": len(rows),
         "signal_counts": signal_counts,
+        "source_counts": source_counts,
         "rows": rows,
     }
 
@@ -290,6 +320,7 @@ def run():
     write_json(f"{HISTORY_DIR}/{run_date.isoformat()}.json", output)
 
     logging.info("Signal counts: %s", signal_counts)
+    logging.info("Source counts: %s", source_counts)
     logging.info("Wrote %s/current.json", OUTPUT_DIR)
     logging.info("Wrote %s/%s.json", HISTORY_DIR, run_date.isoformat())
     logging.info("DONE")
