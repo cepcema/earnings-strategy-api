@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Earnings Strategy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background: #f7f7f7;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .meta {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      font-size: 13px;
+    }
+
+    th {
+      background: #222;
+      color: white;
+      position: sticky;
+      top: 0;
+    }
+
+    .OPEN_TRADE {
+      background: #d7f8d7;
+      font-weight: bold;
+    }
+
+    .KEEP_CLOSED {
+      background: #ffd7d7;
+      font-weight: bold;
+    }
+
+    .CLOSE_ONLY {
+      background: #fff1c2;
+      font-weight: bold;
+    }
+
+    .NO_ACTION {
+      background: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Earnings Strategy</h1>
+  <div class="meta" id="meta">Loading...</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Signal</th>
+        <th>Label</th>
+        <th>Yahoo Symbol</th>
+        <th>Country</th>
+        <th>Earnings Date</th>
+        <th>Previous Trading Day</th>
+        <th>Today</th>
+        <th>Next Trading Day</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <script>
+    async function loadData() {
+      const response = await fetch("./data/current.json?cache=" + Date.now());
+      const data = await response.json();
+
+      document.getElementById("meta").innerText =
+        "Run: " + data.run_datetime +
+        " | Rows: " + data.rows_count +
+        " | Signals: " + JSON.stringify(data.signal_counts);
+
+      const tbody = document.getElementById("rows");
+      tbody.innerHTML = "";
+
+      data.rows.forEach(row => {
+        const tr = document.createElement("tr");
+        tr.className = row.signal;
+
+        tr.innerHTML = `
+          <td>${row.signal || ""}</td>
+          <td>${row.label || ""}</td>
+          <td>${row.symbol || ""}</td>
+          <td>${row.country || ""}</td>
+          <td>${row.earnings_date || ""}</td>
+          <td>${row.previous_trading_day || ""}</td>
+          <td>${row.today_trading_day || ""}</td>
+          <td>${row.next_trading_day || ""}</td>
+          <td>${row.note || ""}</td>
+        `;
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
