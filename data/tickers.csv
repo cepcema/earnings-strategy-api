@@ -1,0 +1,149 @@
+label,symbol,country,enabled
+BHP,BHP.AX,Australia,TRUE
+WES,WES.AX,Australia,TRUE
+NAB,NAB.AX,Australia,TRUE
+CBA,CBA.AX,Australia,TRUE
+NOKIA,NOKIA.HE,Finland,TRUE
+NESTE,NESTE.HE,Finland,TRUE
+LVMH,MC.PA,France,TRUE
+OREP,OR.PA,France,TRUE
+HRMS,RMS.PA,France,TRUE
+BNPP,BNP.PA,France,TRUE
+AIR,AIR.PA,France,TRUE
+AIRP,AI.PA,France,TRUE
+TTEF,TTE.PA,France,TRUE
+BEIG,BEI.DE,Germany,TRUE
+ADSGN,ADS.DE,Germany,TRUE
+MBGn,MBG.DE,Germany,TRUE
+VOW3d,VOW3.DE,Germany,TRUE
+VNAn,VNA.DE,Germany,TRUE
+BMWG,BMW.DE,Germany,TRUE
+DTGGe,DTE.DE,Germany,TRUE
+BAYNd,BAYN.DE,Germany,TRUE
+SIEGn,SIE.DE,Germany,TRUE
+DTEGn,DTE.DE,Germany,TRUE
+MRCG,MRK.DE,Germany,TRUE
+ALVG,ALV.DE,Germany,TRUE
+700,0700.HK,Hong Kong,TRUE
+9618,9618.HK,Hong Kong,TRUE
+ENI,ENI.MI,Italy,TRUE
+CRDI,UCG.MI,Italy,TRUE
+STLAM,STLA.MI,Italy,TRUE
+ISP,ISP.MI,Italy,TRUE
+RACE,RACE.MI,Italy,TRUE
+ENEI,ENEL.MI,Italy,TRUE
+CNHI,,,FALSE
+3382,3382.T,Japan,TRUE
+6501,6501.T,Japan,TRUE
+6594,6594.T,Japan,TRUE
+4568,4568.T,Japan,TRUE
+7203,7203.T,Japan,TRUE
+4661,4661.T,Japan,TRUE
+6861,6861.T,Japan,TRUE
+6981,6981.T,Japan,TRUE
+8035,8035.T,Japan,TRUE
+6367,6367.T,Japan,TRUE
+8766,8766.T,Japan,TRUE
+ASML,ASML,United States,TRUE
+HEIN,HEIA.AS,Netherlands,TRUE
+SGXL,S68.SI,Singapore,TRUE
+WLIL,F34.SI,Singapore,TRUE
+JCYC,C07.SI,Singapore,TRUE
+CAPN,9CI.SI,Singapore,TRUE
+SIAL,C6L.SI,Singapore,TRUE
+HKLD,H78.SI,Singapore,TRUE
+SAN,SAN.MC,Spain,TRUE
+BBVA,BBVA.MC,Spain,TRUE
+CABK,CABK.MC,Spain,TRUE
+ITX,ITX.MC,Spain,TRUE
+VOLVa,VOLV-A.ST,Sweden,TRUE
+BARC,BARC.L,United Kingdom,TRUE
+HSBA,HSBA.L,United Kingdom,TRUE
+SHEL,SHEL.L,United Kingdom,TRUE
+AZN,AZN.L,United Kingdom,TRUE
+VOD,VOD.L,United Kingdom,TRUE
+BATS,BATS.L,United Kingdom,TRUE
+ULVR,ULVR.L,United Kingdom,TRUE
+LSEG,LSEG.L,United Kingdom,TRUE
+ACN,ACN,United States,TRUE
+COST,COST,United States,TRUE
+NKE,NKE,United States,TRUE
+PEP,PEP,United States,TRUE
+BLK,BLK,United States,TRUE
+JPM,JPM,United States,TRUE
+WFC,WFC,United States,TRUE
+GS,GS,United States,TRUE
+JNJ,JNJ,United States,TRUE
+MS,MS,United States,TRUE
+ABT,ABT,United States,TRUE
+TSLA,TSLA,United States,TRUE
+BAC,BAC,United States,TRUE
+BX,BX,United States,TRUE
+ISRG,ISRG,United States,TRUE
+UNP,UNP,United States,TRUE
+AXP,AXP,United States,TRUE
+GE,GE,United States,TRUE
+NFLX,NFLX,United States,TRUE
+PM,PM,United States,TRUE
+VZ,VZ,United States,TRUE
+META,META,United States,TRUE
+KO,KO,United States,TRUE
+BA,BA,United States,TRUE
+NOW,NOW,United States,TRUE
+T,T,United States,TRUE
+IBM,IBM,United States,TRUE
+NEE,NEE,United States,TRUE
+SAP,SAP,United States,TRUE
+TMO,TMO,United States,TRUE
+MCD,MCD,United States,TRUE
+MA,MA,United States,TRUE
+AAPL,AAPL,United States,TRUE
+LIN,LIN,United States,TRUE
+AMZN,AMZN,United States,TRUE
+HON,HON,United States,TRUE
+INTC,INTC,United States,TRUE
+TMUS,TMUS,United States,TRUE
+XOM,XOM,United States,TRUE
+CVX,CVX,United States,TRUE
+ABBV,ABBV,United States,TRUE
+PG,PG,United States,TRUE
+DHR,DHR,United States,TRUE
+UPS,UPS,United States,TRUE
+GOOG,GOOGL,United States,TRUE
+PYPL,PYPL,United States,TRUE
+V,V,United States,TRUE
+MMM,MMM,United States,TRUE
+TXN,TXN,United States,TRUE
+LMT,LMT,United States,TRUE
+RTX,RTX,United States,TRUE
+UNH,UNH,United States,TRUE
+MSFT,MSFT,United States,TRUE
+BKNG,BKNG,United States,TRUE
+ABNB,ABNB,United States,TRUE
+CVS,CVS,United States,TRUE
+BMY,BMY,United States,TRUE
+SHOP,SHOP,United States,TRUE
+SBUX,SBUX,United States,TRUE
+COP,COP,United States,TRUE
+MRK,MRK,United States,TRUE
+LLY,LLY,United States,TRUE
+CMCSA,CMCSA,United States,TRUE
+AMD,AMD,United States,TRUE
+PFE,PFE,United States,TRUE
+MDLZ,MDLZ,United States,TRUE
+CAT,CAT,United States,TRUE
+DIS,DIS,United States,TRUE
+QCOM,QCOM,United States,TRUE
+HMC,HMC,United States,TRUE
+SONY,SONY,United States,TRUE
+CSCO,CSCO,United States,TRUE
+BABA,BABA,United States,TRUE
+LI,LI,United States,TRUE
+HD,HD,United States,TRUE
+NVDA,NVDA,United States,TRUE
+INTU,INTU,United States,TRUE
+WMT,WMT,United States,TRUE
+CRM,CRM,United States,TRUE
+ADBE,ADBE,United States,TRUE
+AVGO,AVGO,United States,TRUE
+ORCL,ORCL,United States,TRUE
