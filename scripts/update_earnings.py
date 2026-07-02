@@ -107,66 +107,111 @@ def normalize_date(value):
         except Exception:
             return None
 
+    try:
+        if hasattr(value, "date"):
+            return value.date()
+    except Exception:
+        pass
+
     return None
 
 
-def extract_earnings_date_from_calendar(calendar_value, previous_day: dt.date):
-    if not calendar_value:
+def pick_best_earnings_date(dates, previous_day: dt.date):
+    clean_dates = []
+
+    for value in dates:
+        parsed = normalize_date(value)
+        if parsed:
+            clean_dates.append(parsed)
+
+    clean_dates = sorted(set(clean_dates))
+
+    if not clean_dates:
         return None
 
-    earnings_value = None
+    future_or_current = [x for x in clean_dates if x >= previous_day]
 
-    if isinstance(calendar_value, dict):
-        earnings_value = (
-            calendar_value.get("Earnings Date")
-            or calendar_value.get("Earnings Dates")
-            or calendar_value.get("earningsDate")
-            or calendar_value.get("earnings_date")
-        )
+    if future_or_current:
+        return min(future_or_current)
 
-    if earnings_value is None:
-        return None
+    return max(clean_dates)
 
-    if isinstance(earnings_value, (list, tuple, set)):
-        dates = [normalize_date(x) for x in earnings_value]
-    else:
-        dates = [normalize_date(earnings_value)]
 
-    dates = [x for x in dates if x is not None]
+def get_earnings_date_from_get_earnings_dates(ticker):
+    try:
+        earnings_df = ticker.get_earnings_dates(limit=12)
 
-    if not dates:
-        return None
+        if earnings_df is None or earnings_df.empty:
+            return None, "get_earnings_dates_empty"
 
-    relevant_dates = [x for x in dates if x >= previous_day]
+        index_dates = list(earnings_df.index)
 
-    if relevant_dates:
-        return min(relevant_dates)
+        if not index_dates:
+            return None, "get_earnings_dates_empty_index"
 
-    return max(dates)
+        return index_dates, "ok"
+
+    except Exception as e:
+        return None, "get_earnings_dates_error: " + str(e)[:300]
+
+
+def get_earnings_date_from_calendar(ticker):
+    try:
+        calendar_value = ticker.calendar
+
+        if not calendar_value:
+            return None, "calendar_empty"
+
+        earnings_value = None
+
+        if isinstance(calendar_value, dict):
+            earnings_value = (
+                calendar_value.get("Earnings Date")
+                or calendar_value.get("Earnings Dates")
+                or calendar_value.get("earningsDate")
+                or calendar_value.get("earnings_date")
+            )
+
+        if earnings_value is None:
+            return None, "calendar_no_earnings_date"
+
+        if isinstance(earnings_value, (list, tuple, set)):
+            return list(earnings_value), "ok"
+
+        return [earnings_value], "ok"
+
+    except Exception as e:
+        return None, "calendar_error: " + str(e)[:300]
 
 
 def get_earnings_date(label: str, symbol: str, previous_day: dt.date):
     if not symbol:
         return None, "disabled_or_missing_yahoo_symbol", "disabled_or_missing_yahoo_symbol"
 
-    try:
-        ticker = yf.Ticker(symbol)
-        calendar = ticker.calendar
+    ticker = yf.Ticker(symbol)
 
-        earnings_date = extract_earnings_date_from_calendar(
-            calendar_value=calendar,
-            previous_day=previous_day,
-        )
+    dates, status = get_earnings_date_from_get_earnings_dates(ticker)
+
+    if dates:
+        earnings_date = pick_best_earnings_date(dates, previous_day)
+
+        if earnings_date:
+            return earnings_date, "yfinance_get_earnings_dates", "ok"
+
+    calendar_dates, calendar_status = get_earnings_date_from_calendar(ticker)
+
+    if calendar_dates:
+        earnings_date = pick_best_earnings_date(calendar_dates, previous_day)
 
         if earnings_date:
             return earnings_date, "yfinance_calendar", "ok"
 
-        return None, "yfinance_calendar_no_date", "no_earnings_date"
+    note = status
 
-    except Exception as e:
-        logging.error("Error getting earnings date for %s %s: %s", label, symbol, str(e))
-        logging.error(traceback.format_exc())
-        return None, "yfinance_calendar_error", str(e)[:300]
+    if calendar_status:
+        note = note + " | " + calendar_status
+
+    return None, "yfinance_no_date", note[:500]
 
 
 def build_signal(
@@ -208,11 +253,19 @@ def build_row(
         source = "disabled"
         note = "disabled_in_tickers_csv"
     else:
-        earnings_date, source, note = get_earnings_date(
-            label=label,
-            symbol=symbol,
-            previous_day=previous_day,
-        )
+        try:
+            earnings_date, source, note = get_earnings_date(
+                label=label,
+                symbol=symbol,
+                previous_day=previous_day,
+            )
+        except Exception as e:
+            logging.error("Error getting earnings date for %s %s: %s", label, symbol, str(e))
+            logging.error(traceback.format_exc())
+
+            earnings_date = None
+            source = "yfinance_error"
+            note = str(e)[:500]
 
     signal, is_open_trade, is_keep_closed, is_close_only, signal_note = build_signal(
         earnings_date=earnings_date,
