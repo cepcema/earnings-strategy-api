@@ -19,6 +19,7 @@ OUTPUT_DIR = "docs/data"
 HISTORY_DIR = "docs/data/history"
 
 SLEEP_SECONDS_BETWEEN_TICKERS = 0.4
+EARNINGS_HISTORY_LIMIT = 100
 
 
 def utc_now_iso() -> str:
@@ -116,15 +117,35 @@ def normalize_date(value):
     return None
 
 
-def pick_best_earnings_date(dates, previous_day: dt.date):
-    clean_dates = []
+def normalize_dates(values):
+    dates = []
 
-    for value in dates:
+    if values is None:
+        return dates
+
+    if isinstance(values, (list, tuple, set)):
+        raw_values = list(values)
+    else:
+        raw_values = [values]
+
+    for value in raw_values:
         parsed = normalize_date(value)
         if parsed:
-            clean_dates.append(parsed)
+            dates.append(parsed)
 
-    clean_dates = sorted(set(clean_dates))
+    return sorted(set(dates))
+
+
+def dates_to_iso_desc(dates):
+    return [
+        x.isoformat()
+        for x in sorted(set(dates), reverse=True)
+        if x is not None
+    ]
+
+
+def pick_best_earnings_date(dates, previous_day: dt.date):
+    clean_dates = sorted(set([x for x in dates if x is not None]))
 
     if not clean_dates:
         return None
@@ -137,30 +158,30 @@ def pick_best_earnings_date(dates, previous_day: dt.date):
     return max(clean_dates)
 
 
-def get_earnings_date_from_get_earnings_dates(ticker):
+def get_dates_from_get_earnings_dates(ticker):
     try:
-        earnings_df = ticker.get_earnings_dates(limit=12)
+        earnings_df = ticker.get_earnings_dates(limit=EARNINGS_HISTORY_LIMIT)
 
         if earnings_df is None or earnings_df.empty:
-            return None, "get_earnings_dates_empty"
+            return [], "get_earnings_dates_empty"
 
-        index_dates = list(earnings_df.index)
+        index_dates = normalize_dates(list(earnings_df.index))
 
         if not index_dates:
-            return None, "get_earnings_dates_empty_index"
+            return [], "get_earnings_dates_empty_index"
 
         return index_dates, "ok"
 
     except Exception as e:
-        return None, "get_earnings_dates_error: " + str(e)[:300]
+        return [], "get_earnings_dates_error: " + str(e)[:300]
 
 
-def get_earnings_date_from_calendar(ticker):
+def get_dates_from_calendar(ticker):
     try:
         calendar_value = ticker.calendar
 
         if not calendar_value:
-            return None, "calendar_empty"
+            return [], "calendar_empty"
 
         earnings_value = None
 
@@ -173,45 +194,60 @@ def get_earnings_date_from_calendar(ticker):
             )
 
         if earnings_value is None:
-            return None, "calendar_no_earnings_date"
+            return [], "calendar_no_earnings_date"
 
-        if isinstance(earnings_value, (list, tuple, set)):
-            return list(earnings_value), "ok"
-
-        return [earnings_value], "ok"
+        return normalize_dates(earnings_value), "ok"
 
     except Exception as e:
-        return None, "calendar_error: " + str(e)[:300]
+        return [], "calendar_error: " + str(e)[:300]
 
 
-def get_earnings_date(label: str, symbol: str, previous_day: dt.date):
+def get_earnings_data(label: str, symbol: str, previous_day: dt.date):
     if not symbol:
-        return None, "disabled_or_missing_yahoo_symbol", "disabled_or_missing_yahoo_symbol"
+        return {
+            "earnings_date": None,
+            "earnings_history": [],
+            "source": "disabled_or_missing_yahoo_symbol",
+            "note": "disabled_or_missing_yahoo_symbol",
+        }
 
     ticker = yf.Ticker(symbol)
 
-    dates, status = get_earnings_date_from_get_earnings_dates(ticker)
+    history_dates, history_status = get_dates_from_get_earnings_dates(ticker)
 
-    if dates:
-        earnings_date = pick_best_earnings_date(dates, previous_day)
+    if history_dates:
+        earnings_date = pick_best_earnings_date(history_dates, previous_day)
 
-        if earnings_date:
-            return earnings_date, "yfinance_get_earnings_dates", "ok"
+        return {
+            "earnings_date": earnings_date,
+            "earnings_history": dates_to_iso_desc(history_dates),
+            "source": "yfinance_get_earnings_dates",
+            "note": "ok",
+        }
 
-    calendar_dates, calendar_status = get_earnings_date_from_calendar(ticker)
+    calendar_dates, calendar_status = get_dates_from_calendar(ticker)
 
     if calendar_dates:
         earnings_date = pick_best_earnings_date(calendar_dates, previous_day)
 
-        if earnings_date:
-            return earnings_date, "yfinance_calendar", "ok"
+        return {
+            "earnings_date": earnings_date,
+            "earnings_history": dates_to_iso_desc(calendar_dates),
+            "source": "yfinance_calendar",
+            "note": "ok",
+        }
 
-    note = status
+    note = history_status
 
     if calendar_status:
         note = note + " | " + calendar_status
 
-    return None, "yfinance_no_date", note[:500]
+    return {
+        "earnings_date": None,
+        "earnings_history": [],
+        "source": "yfinance_no_date",
+        "note": note[:500],
+    }
 
 
 def build_signal(
@@ -249,12 +285,15 @@ def build_row(
     enabled = item.get("enabled", True)
 
     if not enabled:
-        earnings_date = None
-        source = "disabled"
-        note = "disabled_in_tickers_csv"
+        earnings_data = {
+            "earnings_date": None,
+            "earnings_history": [],
+            "source": "disabled",
+            "note": "disabled_in_tickers_csv",
+        }
     else:
         try:
-            earnings_date, source, note = get_earnings_date(
+            earnings_data = get_earnings_data(
                 label=label,
                 symbol=symbol,
                 previous_day=previous_day,
@@ -263,9 +302,17 @@ def build_row(
             logging.error("Error getting earnings date for %s %s: %s", label, symbol, str(e))
             logging.error(traceback.format_exc())
 
-            earnings_date = None
-            source = "yfinance_error"
-            note = str(e)[:500]
+            earnings_data = {
+                "earnings_date": None,
+                "earnings_history": [],
+                "source": "yfinance_error",
+                "note": str(e)[:500],
+            }
+
+    earnings_date = earnings_data["earnings_date"]
+    earnings_history = earnings_data["earnings_history"]
+    source = earnings_data["source"]
+    note = earnings_data["note"]
 
     signal, is_open_trade, is_keep_closed, is_close_only, signal_note = build_signal(
         earnings_date=earnings_date,
@@ -283,6 +330,7 @@ def build_row(
         "symbol": symbol,
         "country": country,
         "earnings_date": earnings_date.isoformat() if earnings_date else None,
+        "earnings_history": earnings_history,
         "earnings_date_source": source,
         "signal": signal,
         "is_open_trade": is_open_trade,
@@ -319,6 +367,7 @@ def run():
     logging.info("Previous trading day: %s", previous_day.isoformat())
     logging.info("Next trading day: %s", next_day.isoformat())
     logging.info("Tickers loaded from CSV: %s", len(tickers))
+    logging.info("Earnings history limit: %s", EARNINGS_HISTORY_LIMIT)
 
     rows = []
 
@@ -349,10 +398,19 @@ def run():
 
     signal_counts = {}
     source_counts = {}
+    history_counts = {
+        "with_earnings_history": 0,
+        "without_earnings_history": 0,
+    }
 
     for row in rows:
         signal_counts[row["signal"]] = signal_counts.get(row["signal"], 0) + 1
         source_counts[row["earnings_date_source"]] = source_counts.get(row["earnings_date_source"], 0) + 1
+
+        if row.get("earnings_history"):
+            history_counts["with_earnings_history"] += 1
+        else:
+            history_counts["without_earnings_history"] += 1
 
     output = {
         "ok": True,
@@ -363,9 +421,11 @@ def run():
         "next_trading_day": next_day.isoformat(),
         "yfinance_version": yf.__version__,
         "tickers_csv_path": TICKERS_CSV_PATH,
+        "earnings_history_limit": EARNINGS_HISTORY_LIMIT,
         "rows_count": len(rows),
         "signal_counts": signal_counts,
         "source_counts": source_counts,
+        "history_counts": history_counts,
         "rows": rows,
     }
 
@@ -374,6 +434,7 @@ def run():
 
     logging.info("Signal counts: %s", signal_counts)
     logging.info("Source counts: %s", source_counts)
+    logging.info("History counts: %s", history_counts)
     logging.info("Wrote %s/current.json", OUTPUT_DIR)
     logging.info("Wrote %s/%s.json", HISTORY_DIR, run_date.isoformat())
     logging.info("DONE")
