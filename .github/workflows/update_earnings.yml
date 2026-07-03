@@ -3,7 +3,14 @@ name: Update earnings calendar
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 5 * * 1-5"
+    # Main daily run: Monday-Friday at 05:17 UTC
+    # Madrid summer time: 07:17
+    - cron: "17 5 * * 1-5"
+
+    # Backup daily run: Monday-Friday at 07:17 UTC
+    # Madrid summer time: 09:17
+    # This protects us if the first GitHub scheduled run is delayed/skipped.
+    - cron: "17 7 * * 1-5"
 
 permissions:
   contents: write
