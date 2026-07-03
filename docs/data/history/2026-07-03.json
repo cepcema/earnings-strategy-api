@@ -1,7 +1,7 @@
 {
   "ok": true,
   "run_date": "2026-07-03",
-  "run_datetime": "2026-07-03T07:13:50Z",
+  "run_datetime": "2026-07-03T10:11:32Z",
   "previous_trading_day": "2026-07-02",
   "today_trading_day": "2026-07-03",
   "next_trading_day": "2026-07-06",
@@ -25,7 +25,7 @@
   "rows": [
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BHP",
       "symbol": "BHP.AX",
       "country": "Australia",
@@ -43,11 +43,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "WES",
       "symbol": "WES.AX",
       "country": "Australia",
@@ -64,11 +64,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "NAB",
       "symbol": "NAB.AX",
       "country": "Australia",
@@ -86,11 +86,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CBA",
       "symbol": "CBA.AX",
       "country": "Australia",
@@ -107,11 +107,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "NOKIA",
       "symbol": "NOKIA.HE",
       "country": "Finland",
@@ -216,11 +216,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "NESTE",
       "symbol": "NESTE.HE",
       "country": "Finland",
@@ -321,11 +321,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "LVMH",
       "symbol": "MC.PA",
       "country": "France",
@@ -342,11 +342,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "OREP",
       "symbol": "OR.PA",
       "country": "France",
@@ -365,11 +365,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "HRMS",
       "symbol": "RMS.PA",
       "country": "France",
@@ -386,11 +386,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BNPP",
       "symbol": "BNP.PA",
       "country": "France",
@@ -493,11 +493,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "AIR",
       "symbol": "AIR.PA",
       "country": "France",
@@ -602,11 +602,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "AIRP",
       "symbol": "AI.PA",
       "country": "France",
@@ -634,11 +634,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "TTEF",
       "symbol": "TTE.PA",
       "country": "France",
@@ -743,11 +743,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BEIG",
       "symbol": "BEI.DE",
       "country": "Germany",
@@ -790,11 +790,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ADSGN",
       "symbol": "ADS.DE",
       "country": "Germany",
@@ -876,11 +876,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MBGn",
       "symbol": "MBG.DE",
       "country": "Germany",
@@ -984,11 +984,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "VOW3d",
       "symbol": "VOW3.DE",
       "country": "Germany",
@@ -1072,11 +1072,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "VNAn",
       "symbol": "VNA.DE",
       "country": "Germany",
@@ -1139,11 +1139,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BMWG",
       "symbol": "BMW.DE",
       "country": "Germany",
@@ -1225,11 +1225,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "DTGGe",
       "symbol": "DTE.DE",
       "country": "Germany",
@@ -1311,11 +1311,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BAYNd",
       "symbol": "BAYN.DE",
       "country": "Germany",
@@ -1397,11 +1397,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SIEGn",
       "symbol": "SIE.DE",
       "country": "Germany",
@@ -1483,11 +1483,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "DTEGn",
       "symbol": "DTE.DE",
       "country": "Germany",
@@ -1569,11 +1569,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MRCG",
       "symbol": "MRK.DE",
       "country": "Germany",
@@ -1654,11 +1654,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ALVG",
       "symbol": "ALV.DE",
       "country": "Germany",
@@ -1739,11 +1739,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "700",
       "symbol": "0700.HK",
       "country": "Hong Kong",
@@ -1846,11 +1846,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "9618",
       "symbol": "9618.HK",
       "country": "Hong Kong",
@@ -1891,11 +1891,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ENI",
       "symbol": "ENI.MI",
       "country": "Italy",
@@ -1999,11 +1999,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CRDI",
       "symbol": "UCG.MI",
       "country": "Italy",
@@ -2095,11 +2095,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "STLAM",
       "symbol": "STLA.MI",
       "country": "Italy",
@@ -2114,11 +2114,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "get_earnings_dates_empty | calendar_empty",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ISP",
       "symbol": "ISP.MI",
       "country": "Italy",
@@ -2222,11 +2222,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "RACE",
       "symbol": "RACE.MI",
       "country": "Italy",
@@ -2285,11 +2285,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ENEI",
       "symbol": "ENEL.MI",
       "country": "Italy",
@@ -2392,11 +2392,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CNHI",
       "symbol": "",
       "country": "",
@@ -2411,11 +2411,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "disabled_in_tickers_csv",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "3382",
       "symbol": "3382.T",
       "country": "Japan",
@@ -2489,11 +2489,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "6501",
       "symbol": "6501.T",
       "country": "Japan",
@@ -2598,11 +2598,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "6594",
       "symbol": "6594.T",
       "country": "Japan",
@@ -2699,11 +2699,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_next_trading_day",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "4568",
       "symbol": "4568.T",
       "country": "Japan",
@@ -2792,11 +2792,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "7203",
       "symbol": "7203.T",
       "country": "Japan",
@@ -2901,11 +2901,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "4661",
       "symbol": "4661.T",
       "country": "Japan",
@@ -2986,11 +2986,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "6861",
       "symbol": "6861.T",
       "country": "Japan",
@@ -3075,11 +3075,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "6981",
       "symbol": "6981.T",
       "country": "Japan",
@@ -3180,11 +3180,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "8035",
       "symbol": "8035.T",
       "country": "Japan",
@@ -3286,11 +3286,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "6367",
       "symbol": "6367.T",
       "country": "Japan",
@@ -3375,11 +3375,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "8766",
       "symbol": "8766.T",
       "country": "Japan",
@@ -3443,11 +3443,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ASML",
       "symbol": "ASML",
       "country": "United States",
@@ -3563,11 +3563,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "HEIN",
       "symbol": "HEIA.AS",
       "country": "Netherlands",
@@ -3585,11 +3585,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SGXL",
       "symbol": "S68.SI",
       "country": "Singapore",
@@ -3671,11 +3671,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "WLIL",
       "symbol": "F34.SI",
       "country": "Singapore",
@@ -3754,11 +3754,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "JCYC",
       "symbol": "C07.SI",
       "country": "Singapore",
@@ -3797,11 +3797,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CAPN",
       "symbol": "9CI.SI",
       "country": "Singapore",
@@ -3818,11 +3818,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SIAL",
       "symbol": "C6L.SI",
       "country": "Singapore",
@@ -3921,11 +3921,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "HKLD",
       "symbol": "H78.SI",
       "country": "Singapore",
@@ -3942,11 +3942,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SAN",
       "symbol": "SAN.MC",
       "country": "Spain",
@@ -4049,11 +4049,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BBVA",
       "symbol": "BBVA.MC",
       "country": "Spain",
@@ -4157,11 +4157,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CABK",
       "symbol": "CABK.MC",
       "country": "Spain",
@@ -4237,11 +4237,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ITX",
       "symbol": "ITX.MC",
       "country": "Spain",
@@ -4345,11 +4345,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "VOLVa",
       "symbol": "VOLV-A.ST",
       "country": "Sweden",
@@ -4364,11 +4364,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "get_earnings_dates_empty | calendar_no_earnings_date",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BARC",
       "symbol": "BARC.L",
       "country": "United Kingdom",
@@ -4451,11 +4451,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "HSBA",
       "symbol": "HSBA.L",
       "country": "United Kingdom",
@@ -4533,11 +4533,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SHEL",
       "symbol": "SHEL.L",
       "country": "United Kingdom",
@@ -4632,11 +4632,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "AZN",
       "symbol": "AZN.L",
       "country": "United Kingdom",
@@ -4741,11 +4741,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "VOD",
       "symbol": "VOD.L",
       "country": "United Kingdom",
@@ -4776,11 +4776,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BATS",
       "symbol": "BATS.L",
       "country": "United Kingdom",
@@ -4817,11 +4817,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ULVR",
       "symbol": "ULVR.L",
       "country": "United Kingdom",
@@ -4873,11 +4873,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "LSEG",
       "symbol": "LSEG.L",
       "country": "United Kingdom",
@@ -4895,11 +4895,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ACN",
       "symbol": "ACN",
       "country": "United States",
@@ -5015,11 +5015,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "COST",
       "symbol": "COST",
       "country": "United States",
@@ -5135,11 +5135,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "NKE",
       "symbol": "NKE",
       "country": "United States",
@@ -5255,11 +5255,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "PEP",
       "symbol": "PEP",
       "country": "United States",
@@ -5375,11 +5375,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BLK",
       "symbol": "BLK",
       "country": "United States",
@@ -5422,11 +5422,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "JPM",
       "symbol": "JPM",
       "country": "United States",
@@ -5542,11 +5542,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "WFC",
       "symbol": "WFC",
       "country": "United States",
@@ -5662,11 +5662,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "GS",
       "symbol": "GS",
       "country": "United States",
@@ -5782,11 +5782,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "JNJ",
       "symbol": "JNJ",
       "country": "United States",
@@ -5902,11 +5902,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MS",
       "symbol": "MS",
       "country": "United States",
@@ -6022,11 +6022,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ABT",
       "symbol": "ABT",
       "country": "United States",
@@ -6142,11 +6142,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "TSLA",
       "symbol": "TSLA",
       "country": "United States",
@@ -6226,11 +6226,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BAC",
       "symbol": "BAC",
       "country": "United States",
@@ -6345,11 +6345,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BX",
       "symbol": "BX",
       "country": "United States",
@@ -6442,11 +6442,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ISRG",
       "symbol": "ISRG",
       "country": "United States",
@@ -6561,11 +6561,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "UNP",
       "symbol": "UNP",
       "country": "United States",
@@ -6681,11 +6681,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "AXP",
       "symbol": "AXP",
       "country": "United States",
@@ -6801,11 +6801,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "GE",
       "symbol": "GE",
       "country": "United States",
@@ -6919,11 +6919,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "NFLX",
       "symbol": "NFLX",
       "country": "United States",
@@ -7036,11 +7036,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "PM",
       "symbol": "PM",
       "country": "United States",
@@ -7130,11 +7130,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "VZ",
       "symbol": "VZ",
       "country": "United States",
@@ -7250,11 +7250,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "META",
       "symbol": "META",
       "country": "United States",
@@ -7327,11 +7327,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "KO",
       "symbol": "KO",
       "country": "United States",
@@ -7447,11 +7447,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BA",
       "symbol": "BA",
       "country": "United States",
@@ -7567,11 +7567,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "NOW",
       "symbol": "NOW",
       "country": "United States",
@@ -7644,11 +7644,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "T",
       "symbol": "T",
       "country": "United States",
@@ -7764,11 +7764,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "IBM",
       "symbol": "IBM",
       "country": "United States",
@@ -7884,11 +7884,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "NEE",
       "symbol": "NEE",
       "country": "United States",
@@ -8002,11 +8002,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SAP",
       "symbol": "SAP",
       "country": "United States",
@@ -8122,11 +8122,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "TMO",
       "symbol": "TMO",
       "country": "United States",
@@ -8242,11 +8242,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MCD",
       "symbol": "MCD",
       "country": "United States",
@@ -8362,11 +8362,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MA",
       "symbol": "MA",
       "country": "United States",
@@ -8463,11 +8463,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "AAPL",
       "symbol": "AAPL",
       "country": "United States",
@@ -8581,11 +8581,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "LIN",
       "symbol": "LIN",
       "country": "United States",
@@ -8699,11 +8699,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "AMZN",
       "symbol": "AMZN",
       "country": "United States",
@@ -8817,11 +8817,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "HON",
       "symbol": "HON",
       "country": "United States",
@@ -8936,11 +8936,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "INTC",
       "symbol": "INTC",
       "country": "United States",
@@ -9054,11 +9054,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "TMUS",
       "symbol": "TMUS",
       "country": "United States",
@@ -9127,11 +9127,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "XOM",
       "symbol": "XOM",
       "country": "United States",
@@ -9247,11 +9247,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CVX",
       "symbol": "CVX",
       "country": "United States",
@@ -9367,11 +9367,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ABBV",
       "symbol": "ABBV",
       "country": "United States",
@@ -9442,11 +9442,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "PG",
       "symbol": "PG",
       "country": "United States",
@@ -9562,11 +9562,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "DHR",
       "symbol": "DHR",
       "country": "United States",
@@ -9682,11 +9682,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "UPS",
       "symbol": "UPS",
       "country": "United States",
@@ -9802,11 +9802,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "GOOG",
       "symbol": "GOOGL",
       "country": "United States",
@@ -9910,11 +9910,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "PYPL",
       "symbol": "PYPL",
       "country": "United States",
@@ -9975,11 +9975,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "V",
       "symbol": "V",
       "country": "United States",
@@ -10069,11 +10069,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MMM",
       "symbol": "MMM",
       "country": "United States",
@@ -10189,11 +10189,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "TXN",
       "symbol": "TXN",
       "country": "United States",
@@ -10309,11 +10309,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "LMT",
       "symbol": "LMT",
       "country": "United States",
@@ -10429,11 +10429,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "RTX",
       "symbol": "RTX",
       "country": "United States",
@@ -10549,11 +10549,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "UNH",
       "symbol": "UNH",
       "country": "United States",
@@ -10669,11 +10669,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MSFT",
       "symbol": "MSFT",
       "country": "United States",
@@ -10789,11 +10789,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BKNG",
       "symbol": "BKNG",
       "country": "United States",
@@ -10907,11 +10907,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ABNB",
       "symbol": "ABNB",
       "country": "United States",
@@ -10950,11 +10950,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CVS",
       "symbol": "CVS",
       "country": "United States",
@@ -11070,11 +11070,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BMY",
       "symbol": "BMY",
       "country": "United States",
@@ -11190,11 +11190,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SHOP",
       "symbol": "SHOP",
       "country": "United States",
@@ -11255,11 +11255,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SBUX",
       "symbol": "SBUX",
       "country": "United States",
@@ -11374,11 +11374,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "COP",
       "symbol": "COP",
       "country": "United States",
@@ -11494,11 +11494,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MRK",
       "symbol": "MRK",
       "country": "United States",
@@ -11614,11 +11614,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "LLY",
       "symbol": "LLY",
       "country": "United States",
@@ -11734,11 +11734,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CMCSA",
       "symbol": "CMCSA",
       "country": "United States",
@@ -11854,11 +11854,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "AMD",
       "symbol": "AMD",
       "country": "United States",
@@ -11974,11 +11974,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "PFE",
       "symbol": "PFE",
       "country": "United States",
@@ -12094,11 +12094,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "MDLZ",
       "symbol": "MDLZ",
       "country": "United States",
@@ -12214,11 +12214,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CAT",
       "symbol": "CAT",
       "country": "United States",
@@ -12334,11 +12334,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "DIS",
       "symbol": "DIS",
       "country": "United States",
@@ -12454,11 +12454,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "QCOM",
       "symbol": "QCOM",
       "country": "United States",
@@ -12574,11 +12574,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "HMC",
       "symbol": "HMC",
       "country": "United States",
@@ -12636,11 +12636,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "SONY",
       "symbol": "SONY",
       "country": "United States",
@@ -12736,11 +12736,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CSCO",
       "symbol": "CSCO",
       "country": "United States",
@@ -12854,11 +12854,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "BABA",
       "symbol": "BABA",
       "country": "United States",
@@ -12924,11 +12924,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "LI",
       "symbol": "LI",
       "country": "United States",
@@ -12969,11 +12969,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "HD",
       "symbol": "HD",
       "country": "United States",
@@ -13089,11 +13089,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "NVDA",
       "symbol": "NVDA",
       "country": "United States",
@@ -13206,11 +13206,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "INTU",
       "symbol": "INTU",
       "country": "United States",
@@ -13326,11 +13326,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "WMT",
       "symbol": "WMT",
       "country": "United States",
@@ -13444,11 +13444,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "CRM",
       "symbol": "CRM",
       "country": "United States",
@@ -13553,11 +13553,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ADBE",
       "symbol": "ADBE",
       "country": "United States",
@@ -13673,11 +13673,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "AVGO",
       "symbol": "AVGO",
       "country": "United States",
@@ -13762,11 +13762,11 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     },
     {
       "run_date": "2026-07-03",
-      "run_datetime": "2026-07-03T07:13:50Z",
+      "run_datetime": "2026-07-03T10:11:32Z",
       "label": "ORCL",
       "symbol": "ORCL",
       "country": "United States",
@@ -13880,7 +13880,7 @@
       "today_trading_day": "2026-07-03",
       "next_trading_day": "2026-07-06",
       "note": "earnings_not_in_signal_window",
-      "created_at": "2026-07-03T07:13:50Z"
+      "created_at": "2026-07-03T10:11:32Z"
     }
   ]
 }
